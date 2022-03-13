@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .main {
+            position: relative;
+            color: #F6F6F8;
+        }
+
+        .main .main_img {
+            width: 100%;
+            height: 100%;
+            background-image: url(../src/Images/Main.jpg);
+            background-size: 100% 100%;
+        }
+
+        .main .main_name {
+            position: absolute;
+            width: 200px;
+            height: 80px;
+            font-size: 5em;
+            letter-spacing: 0.1em;
+        }
+
+        .main .main_motto1 {
+            position: absolute;
+            height: 100px;
+            width: 40px;
+            font-size: 1.6em;
+        }
+
+        .main .main_motto2 {
+            position: absolute;
+            height: 100px;
+            width: 40px;
+            font-size: 1.6em;
+        }
+
+        .main .main_motto3 {
+            position: absolute;
+            height: 100px;
+            width: 40px;
+            font-size: 1.6em;
+        }
+
+        .main .main_pull_down {
+            position: absolute;
+            left: calc(50% + -35px);
+            bottom: 20px;
+            width: 70px;
+            height: 70px;
+            background-image: url(../src/Images/PullDown.png);
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_img"></div>
+        <div class="main_name">林衍</div>
+        <div class="main_motto1">山高路远</div>
+        <div class="main_motto2">看世界</div>
+        <div class="main_motto3">也看自己</div>
+        <div class="main_pull_down"></div>
+    </div>
+</body>
+
+<script src='../src/JS/index.js'></script>
+
+</html>
