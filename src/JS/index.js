@@ -1,6 +1,6 @@
-// control scroll way
-
+// control scroll way,use num to judge position.
 let num = 0;
+
 container.addEventListener('wheel',(event)=>{
     event.preventDefault();
     num -= event.deltaY;

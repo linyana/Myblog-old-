@@ -198,6 +198,7 @@ body {
 }
 
 .individual_label_contact {
+    cursor: pointer;
     position: absolute;
     top: 450px;
     left: calc(50% - 160px);
@@ -222,6 +223,7 @@ body {
 }
 
 .individual_label_contact_line > div{
+    cursor: pointer;
     width: 40px;
     height: 40px;
     background-size: 100% 100%;

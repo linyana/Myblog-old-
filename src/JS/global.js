@@ -1,3 +1,4 @@
+// get dom node
 const container = document.querySelector('.container');
 const page = document.querySelector('.page');
 const mainPullDown = document.querySelector('.main .main_pull_down');
@@ -10,5 +11,3 @@ const mainMotto3 = document.querySelector('.main .main_motto3');
 const content = document.querySelector('.content')
 const contentLeft = document.querySelector('.content_left')
 
-const screenWidth = window.screen.width;
-const screenHeight = window.screen.height - 120;
