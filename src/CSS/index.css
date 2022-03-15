@@ -28,6 +28,7 @@ body {
     position: relative;
     color: #F6F6F8;
     text-shadow: 5px 5px 5px rgb(0,0,0,0.5);
+    box-shadow: 0 2px 30px rgb(0,0,0,0.6);
 }
 
 .main .main_img {
@@ -75,4 +76,165 @@ body {
     background-image: url(../Images/PullDown.png);
     background-size: 100% 100%;
     transition: bottom 0.9s ease-out;
+}
+
+
+/* content */
+
+.page2 {
+    position: absolute;
+    transition: 0.9s ease-out;
+}
+
+.content {
+    position: relative;
+    height: 200px;
+    width: 1200px!important;
+    margin-left: calc(35% - 384px);
+}
+
+.content_left {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.individual_label {
+    position: relative;
+    width: 384px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    text-shadow: 0 0 3px rgb(0,0,0,0.3);
+    color: rgba(56, 54, 54, 0.8);
+}
+
+.individual_label_image {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(../Images/IndividualLabel.jpg);
+    background-size: 150% 150%;
+    background-position: 40% 70%;
+}
+
+.individual_label_user_image {
+    position: absolute;
+    top: 110px;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-image: url(../Images/User.jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 0 20px rgb(0,0,0,0.6);
+}
+
+.individual_label_user_name {
+    position: absolute;
+    top: 250px;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.2em;
+    text-shadow: 0 0 3px rgb(0,0,0,0.3);
+}
+
+.individual_label_position_image {
+    position: absolute;
+    top: 312px;
+    left: calc(50% - 60px);
+    width: 25px;
+    height: 25px;
+    background-image: url(../Images/Position.png);
+    background-size: 100% 100%;
+}
+
+.individual_label_position_name {
+    position: absolute;
+    top: 310px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 0 0 3px rgb(0,0,0,0.3);
+}
+
+.individual_label_information {
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 375px;
+    width: 80%;
+    height: 60px;
+}
+
+.individual_label_information_box {
+    position: relative;
+    width: 25%;
+}
+
+.individual_label_information_box_name {
+    position: absolute;
+    top: 2px;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.individual_label_information_box_number {
+    position: absolute;
+    top: 35px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.individual_label_contact {
+    position: absolute;
+    top: 450px;
+    left: calc(50% - 160px);
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(25, 224, 158);
+    color: white;
+}
+
+.individual_label_contact_line {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 515px;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 50px;
+}
+
+.individual_label_contact_line > div{
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.individual_label_contact_line_QQ {
+    background-image: url(../Images/QQ.png);
+}
+
+.individual_label_contact_line_Wechat {
+    background-image: url(../Images/Wechat.png);
+}
+
+.individual_label_contact_line_Github {
+    background-image: url(../Images/Github.png);
 }
