@@ -1,3 +1,6 @@
+// Prevents the browser from remembering the scroll position.
+history.scrollRestoration = 'manual';
+
 // Get dom node.
 const container = document.querySelector('.container');
 const page = document.querySelector('.page');
@@ -10,4 +13,3 @@ const mainMotto2 = document.querySelector('.main .main_motto2');
 const mainMotto3 = document.querySelector('.main .main_motto3');
 const content = document.querySelector('.content')
 const contentLeft = document.querySelector('.content_left')
-
