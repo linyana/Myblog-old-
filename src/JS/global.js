@@ -1,4 +1,4 @@
-// get dom node
+// Get dom node.
 const container = document.querySelector('.container');
 const page = document.querySelector('.page');
 const mainPullDown = document.querySelector('.main .main_pull_down');

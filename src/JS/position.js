@@ -1,14 +1,14 @@
-// get user screen size.
+// Get user screen size.
 const screenWidth = window.screen.width;
 const screenHeight = window.screen.height - 120;
 
-// control main's layout from your screen.
+// Control main's layout from your screen.
 container.style.width = screenWidth + 'px';
 container.style.height = screenHeight + 500 + 'px';
 main.style.width = screenWidth + 'px';
 main.style.height = screenHeight + 'px';
 
-// motto/page's position.
+// page/motto's position.
 function setPosition(box,rightTimes,topTimes){
     box.style.right = screenWidth * rightTimes + 'px';
     box.style.top = screenHeight * topTimes + 'px';
@@ -19,10 +19,11 @@ setPosition(mainMotto1,0.18,0.34);
 setPosition(mainMotto2,0.15,0.39);
 setPosition(mainMotto3,0.15,0.54);
 
-// content/page2's position.
+// page2/content's position.
 page2.style.top = screenHeight + 'px';
 content.style.width = screenWidth + 'px';
-contentLeft.style.width = screenWidth * 0.25 + 'px';
-contentLeft.style.height = 1200 + 'px';
+contentLeft.style.width = 384 + 'px';
+contentLeft.style.height = 800 + 'px';
+contentLeft.style.left = (screenWidth - 1500) / 2 + 'px'
 
 
