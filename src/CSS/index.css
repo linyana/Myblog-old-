@@ -89,14 +89,14 @@ body {
 .content {
     position: relative;
     height: 200px;
-    width: 1200px!important;
-    margin-left: calc(35% - 384px);
+    width: 1400px!important;
+    margin-left: 0;
 }
 
 .content_left {
     position: absolute;
-    left: 30px;
-    top: 20px;
+    left: 0;
+    top: 32px;
 }
 
 .individual_label {
@@ -240,3 +240,51 @@ body {
 .individual_label_contact_line_Github {
     background-image: url(../Images/Github.png);
 }
+
+
+
+/* content_right */
+
+.content_right {
+    position: absolute;
+    left: 460px;
+    top: 32px;
+    width: 920px;
+    height: 1200px;
+}
+
+.article .article_card {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(0,0,0,0.3);
+}
+
+.article .article_card .article_card_left {
+    width: 700px;
+    height: 100%;
+    background-image: url(../Images/wait4.jpeg);
+    background-size: 100% 180%;
+    background-position: 0 30%;
+    -webkit-filter: blur(0.8em);
+    filter: blur(0.8em);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.article .article_card .article_card_right {
+    position: absolute;
+    right: 0;
+    top: -0.5%;
+    width: 350px;
+    height: 101%;
+    background-image: url(../Images/wait4.jpeg);
+    background-size: 120% 120%;
+    background-position: 50% 50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-clip-path: polygon(15% 0,100% 0,100% 100%,0 100%);
+    clip-path: polygon(20% 0,100% 0,100% 100%,0 100%);
+}
+
