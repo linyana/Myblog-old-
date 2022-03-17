@@ -21,9 +21,8 @@ setPosition(mainMotto3,0.15,0.54);
 
 // page2/content's position.
 page2.style.top = screenHeight + 'px';
-content.style.width = screenWidth + 'px';
+content.style.marginLeft = (screenWidth - 1400) / 2 + 'px';
 contentLeft.style.width = 384 + 'px';
 contentLeft.style.height = 800 + 'px';
-contentLeft.style.left = (screenWidth - 1500) / 2 + 'px'
 
 
