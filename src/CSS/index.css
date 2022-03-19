@@ -132,6 +132,7 @@ body {
 }
 
 .individual_label_user_name {
+    cursor: pointer;
     position: absolute;
     top: 250px;
     left: calc(50% - 100px);
@@ -179,6 +180,7 @@ body {
 }
 
 .individual_label_information_box_name {
+    cursor: pointer;
     position: absolute;
     top: 2px;
     left: calc(50% - 25px);
@@ -189,6 +191,7 @@ body {
 }
 
 .individual_label_information_box_number {
+    cursor: pointer;
     position: absolute;
     top: 35px;
     left: calc(50% - 20px);
@@ -255,6 +258,7 @@ body {
 }
 
 .article .article_card {
+    cursor: pointer;
     position: relative;
     margin-bottom: 30px;
     width: 100%;
