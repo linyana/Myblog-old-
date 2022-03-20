@@ -8,12 +8,19 @@ container.style.height = screenHeight + 500 + 'px';
 main.style.width = screenWidth + 'px';
 main.style.height = screenHeight + 'px';
 
-// page/motto's position.
+/* 
+* @function set the page position with screen
+* @param box {HTMLElement} the box which need to be located
+* @param rightTimes {number} set style.right
+* @param topTimes {number} set style.top
+* @return void
+*/
 function setPosition(box,rightTimes,topTimes){
     box.style.right = screenWidth * rightTimes + 'px';
     box.style.top = screenHeight * topTimes + 'px';
 }
 
+// page/motto's position.
 setPosition(mainName,0.12,0.20);
 setPosition(mainMotto1,0.18,0.34);
 setPosition(mainMotto2,0.15,0.39);

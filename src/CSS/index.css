@@ -68,6 +68,7 @@ body {
 }
 
 .main .main_pull_down {
+    cursor: pointer;
     position: absolute;
     left: calc(50% + -35px);
     bottom: 20px;
