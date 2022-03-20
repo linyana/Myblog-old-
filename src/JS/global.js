@@ -14,3 +14,4 @@ const mainMotto3 = document.querySelector('.main .main_motto3');
 const content = document.querySelector('.content');
 const contentLeft = document.querySelector('.content_left');
 const articleCard= document.querySelectorAll('.article_card');
+const individualLabel = document.querySelector('.individual_label');
