@@ -2,6 +2,6 @@
 ## characteristic
 > blcok the browser's default scroll and use position to scroll the page.
 ## URL
-> <a href="http://www.linyan.fun">www.linyan.fun</a>
+> <a href="https://linyana.github.io/Myblog-old-/">www.linyan.fun</a>
 or
-> <a href="http://linyana.github.io">linyana.github.io</a>
+> <a href="https://linyana.github.io/Myblog-old-/">linyana.github.io</a>
